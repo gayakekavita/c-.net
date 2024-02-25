@@ -1,0 +1,34 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace helloworld
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            /*
+             * Memory taken by the variables according to their data types.
+              Integer - 4 byte
+              Float- 4 byte
+              Character - 2 byte
+              Boolean - 1 bit
+              String - 2 byte per character 
+             */
+            int age = 10;
+            Char character = 'A';
+            String str = "Kavya";
+            bool isTrue = true;
+            float mark = 98.23f;
+            Console.WriteLine("Name is:" + str);
+            Console.WriteLine("Age is:" + age);
+            Console.WriteLine("Initial is:" + character);
+            Console.WriteLine("Marks is:" + mark);
+            Console.WriteLine("true or false:" + isTrue);
+            Console.ReadLine();
+        }
+    }
+}
