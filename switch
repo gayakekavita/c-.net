@@ -1,0 +1,34 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace helloworld
+{
+    internal class first
+    {
+        static void Main(String[] args)
+        {
+            Console.WriteLine("Enter your age");
+            String strage = Console.ReadLine();
+            int age = Convert.ToInt32(strage);
+            switch (age)
+            {
+                case 18:
+                    Console.WriteLine("You are eligible");
+                    break;
+                case 10:
+                    Console.WriteLine("You are not eligible");
+                    break;
+                default:
+                    Console.WriteLine("Enjoy");
+                    break;
+            }
+            
+            Console.ReadLine();
+
+    
+        }
+    }
+}
