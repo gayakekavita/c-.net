@@ -1,0 +1,31 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace helloworld
+{
+    internal class first
+    {
+        static void addition(int a,int b)
+        {
+            Console.WriteLine("addition is:" + (a+b));
+        }
+        static void addition(int a,int b,int c)
+        {
+            Console.WriteLine("Addition is:" + (a + b + c));
+
+        }
+        static void Main(String[] args)
+        {
+
+            //calling the function
+            addition(10,20);
+            addition(10, 20, 30);
+            Console.ReadLine();
+
+    
+        }
+    }
+}
