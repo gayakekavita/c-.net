@@ -1,0 +1,29 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace helloworld
+{
+    internal class first
+    {
+        static void Main(String[] args)
+        {
+
+
+
+            String str = "Hello Everyone";
+            Console.WriteLine(str[0]);
+            Console.WriteLine(str[1]);
+            Console.WriteLine(str.IndexOf("Hello"));
+            Console.WriteLine(str.Substring(5));
+            //for inserting " in the sentence or in string
+            Console.WriteLine("Hello \" kavya");
+            Console.WriteLine("hello \t kriti");
+            Console.ReadLine();
+
+    
+        }
+    }
+}
